@@ -1,0 +1,413 @@
+html,body{
+    width:100%;
+    height:100%;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+    text-align: center;
+}
+
+
+.fist{
+    height:6%;
+    width:1%;
+    background-color: darkgreen;
+    -webkit-box-shadow:0px 0px 40px 0px rgb(0, 102, 0);
+    -moz-box-shadow:0px 0px 40px 0px rgb(0, 102, 0);
+    box-shadow:0px 0px 40px 0px rgb(0, 102, 0);
+    margin: 50px auto;
+    animation: light 2s linear 1.5s infinite;
+        border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 15%;
+     border-top-right-radius:15%;
+    left:100px;
+}
+@keyframes light{
+    20%{
+        background-color: darkgreen;
+         box-shadow:0px 0px 40px 0px rgb(0, 102, 0);
+    }
+    45%{
+        background-color: rgb(0, 255, 0);
+            box-shadow:0px 0px 40px 0px rgb(51, 255, 51);
+    }
+   100%{
+        background-color: rgb(0, 255, 0);
+            box-shadow:0px 0px 40px 0px rgb(51, 255, 51);
+    }
+}
+.second{
+    height:6%;
+    width:1%;
+    background-color:rgb(57, 0, 77);
+    -webkit-box-shadow:0px 0px 40px 0pxrgbrgb(191, 0, 255);
+    -moz-box-shadow:0px 0px 40px 0px rgb(191, 0, 255);
+    box-shadow:0px 0px 40px 0pxrgbrgb(191, 0, 255);
+    margin: 50px auto;
+    animation: lighten 2s linear 7s infinite;
+        border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 15%;
+     border-top-right-radius:15%;
+    left:200px;
+}
+@keyframes lighten{
+    20%{
+        background-color: rgb(57, 0, 77);
+         box-shadow:0px 0px 40px 0pxrgb(191, 0, 255);
+    }
+    50%{
+        background-color:rgb(198, 26, 255);
+            box-shadow:0px 0px 40px 0px rgb(198, 26, 255);
+    }
+    100%{
+        background-color:rgb(198, 26, 255);
+            box-shadow:0px 0px 40px 0pxrgbrgb(198, 26, 255);
+    }
+}
+.third{
+    height:6%;
+    width:1%;
+    background-color: rgb(102, 102, 0);
+    -webkit-box-shadow:0px 0px 40px 0px rgb(130, 139, 0);
+    -moz-box-shadow:0px 0px 40px 0px rgb(139, 139, 0);
+    box-shadow:0px 0px 40px 0px rgb(139, 139, 0);
+    margin: 50px auto;
+    animation: lig 2s linear 6s infinite;
+        border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 15%;
+     border-top-right-radius:15%;
+    left:300px;
+}
+@keyframes lig{
+    20%{
+        background-color: rgb(102, 102, 0);
+         box-shadow:0px 0px 40px 0px rgb(139, 139, 0);
+    }
+    55%{
+        background-color: rgb(255, 255, 0);
+            box-shadow:0px 0px 40px 0px rgb(255, 255, 0);
+    }
+    100%{
+        background-color: rgb(255, 255, 0);
+            box-shadow:0px 0px 40px 0px rgb(255, 255, 0);
+    }
+}
+.fourth{
+    height:6%;
+    width:1%;
+    background-color: rgb(0, 77, 77);
+    -webkit-box-shadow:0px 0px 40px 0px rgb(0, 128, 128);
+    -moz-box-shadow:0px 0px 40px 0pxrgb(0, 128, 128);
+    box-shadow:0px 0px 40px 0px rgb(0, 128, 128);
+    margin: 50px auto;
+    animation: lighty 2s linear 5s infinite;
+        border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 15%;
+     border-top-right-radius:15%;
+    left:400px;
+}
+@keyframes lighty{
+    20%{
+        background-color: rgb(0, 77, 77);
+         box-shadow:0px 0px 40px 0px rgb(0, 128, 128);
+    }
+    62%{
+        background-color: rgb(26, 255, 255);
+            box-shadow:0px 0px 40px 0px rgb(0, 255, 255);
+    }
+    100%{
+        background-color:rgb(26, 255, 255);
+            box-shadow:0px 0px 40px 0px rgb(0, 255, 255);
+    }
+}
+.fifth{
+    height:6%;
+    width:1%;
+    background-color: dimgray;
+    -webkit-box-shadow:0px 0px 40px 0px rgb(166, 166, 166);
+    -moz-box-shadow:0px 0px 40px 0px rgb(166, 166, 166);
+    box-shadow:0px 0px 40px 0px rgb(166, 166, 166);
+    margin: 50px auto;
+    animation: lighteny 2s linear 4.5s infinite;
+        border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 15%;
+     border-top-right-radius:15%;
+    left:500px;
+}
+@keyframes lighteny{
+    20%{
+        background-color: dimgray;
+         box-shadow:0px 0px 40px 0px rgb(166, 166, 166);
+    }
+    65%{
+        background-color: white;
+            box-shadow:0px 0px 40px 0px rgb(242, 242, 242);
+    }
+    100%{
+        background-color: white;
+            box-shadow:0px 0px 40px 0px rgb(242, 242, 242);
+    }
+}
+.sixeth{
+    height:6%;
+    width:1%;
+    background-color: darkgreen;
+    -webkit-box-shadow:0px 0px 40px 0px rgb(0, 102, 0);
+    -moz-box-shadow:0px 0px 40px 0px rgb(0, 102, 0);
+    box-shadow:0px 0px 40px 0px rgb(0, 102, 0);
+    margin: 50px auto;
+    animation: lighted 2s linear 4s infinite;
+        border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 15%;
+     border-top-right-radius:15%;
+    left:600px;
+}
+@keyframes lighted{
+    20%{
+        background-color: darkgreen;
+         box-shadow:0px 0px 40px 0px rgb(0, 102, 0);
+    }
+    45%{
+        background-color: rgb(0, 255, 0);
+            box-shadow:0px 0px 40px 0px rgb(51, 255, 51);
+    }
+   100%{
+        background-color: rgb(0, 255, 0);
+            box-shadow:0px 0px 40px 0px rgb(51, 255, 51);
+    }
+}
+.seventh{
+    height:6%;
+    width:1%;
+    background-color:rgb(57, 0, 77);
+    -webkit-box-shadow:0px 0px 40px 0pxrgbrgb(191, 0, 255);
+    -moz-box-shadow:0px 0px 40px 0px rgb(191, 0, 255);
+    box-shadow:0px 0px 40px 0pxrgbrgb(191, 0, 255);
+    margin: 50px auto;
+    animation: lamb 2s linear 3s infinite;
+        border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 15%;
+     border-top-right-radius:15%;
+    left:700px;
+}
+@keyframes lamb{
+    20%{
+        background-color: rgb(57, 0, 77);
+         box-shadow:0px 0px 40px 0pxrgb(191, 0, 255);
+    }
+    50%{
+        background-color:rgb(198, 26, 255);
+            box-shadow:0px 0px 40px 0px rgb(198, 26, 255);
+    }
+    100%{
+        background-color:rgb(198, 26, 255);
+            box-shadow:0px 0px 40px 0pxrgbrgb(198, 26, 255);
+    }
+}
+.eight{
+    height:6%;
+    width:1%;
+    background-color: rgb(102, 102, 0);
+    -webkit-box-shadow:0px 0px 40px 0px rgb(130, 139, 0);
+    -moz-box-shadow:0px 0px 40px 0px rgb(139, 139, 0);
+    box-shadow:0px 0px 40px 0px rgb(139, 139, 0);
+    margin: 50px auto;
+    animation: liga 2s linear 1s infinite;
+        border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 15%;
+     border-top-right-radius:15%;
+    left:800px;
+}
+@keyframes liga{
+    20%{
+        background-color: rgb(102, 102, 0);
+         box-shadow:0px 0px 40px 0px rgb(139, 139, 0);
+    }
+    55%{
+        background-color: rgb(255, 255, 0);
+            box-shadow:0px 0px 40px 0px rgb(255, 255, 0);
+    }
+    100%{
+        background-color: rgb(255, 255, 0);
+            box-shadow:0px 0px 40px 0px rgb(255, 255, 0);
+    }
+}
+.nine{
+    height:6%;
+    width:1%;
+    background-color: rgb(0, 77, 77);
+    -webkit-box-shadow:0px 0px 40px 0px rgb(0, 128, 128);
+    -moz-box-shadow:0px 0px 40px 0pxrgb(0, 128, 128);
+    box-shadow:0px 0px 40px 0px rgb(0, 128, 128);
+    margin: 50px auto;
+    animation: lightyl 2s linear 2s infinite;
+        border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 15%;
+     border-top-right-radius:15%;
+    left:900px;
+}
+@keyframes lightyl{
+    20%{
+        background-color: rgb(0, 77, 77);
+         box-shadow:0px 0px 40px 0px rgb(0, 128, 128);
+    }
+    62%{
+        background-color: rgb(26, 255, 255);
+            box-shadow:0px 0px 40px 0px rgb(0, 255, 255);
+    }
+    100%{
+        background-color:rgb(26, 255, 255);
+            box-shadow:0px 0px 40px 0px rgb(0, 255, 255);
+    }
+}
+.ten{
+    height:6%;
+    width:1%;
+    background-color: dimgray;
+    -webkit-box-shadow:0px 0px 40px 0px rgb(166, 166, 166);
+    -moz-box-shadow:0px 0px 40px 0px rgb(166, 166, 166);
+    box-shadow:0px 0px 40px 0px rgb(166, 166, 166);
+    margin: 50px auto;
+    animation: lightena 2s linear 1s infinite;
+        border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 15%;
+     border-top-right-radius:15%;
+    left:1000px;
+}
+@keyframes lightena{
+    20%{
+        background-color: dimgray;
+         box-shadow:0px 0px 40px 0px rgb(166, 166, 166);
+    }
+    65%{
+        background-color: white;
+            box-shadow:0px 0px 40px 0px rgb(242, 242, 242);
+    }
+    100%{
+        background-color: white;
+            box-shadow:0px 0px 40px 0px rgb(242, 242, 242);
+    }
+}
+.fist,.second,.third,.fourth,.fifth,.sixeth,.seventh,.eight,.nine,.ten{
+    position:absolute;
+}
+.on,.the,.tree,.he,.hug,.her,.and,.his,.mum{
+    height: 50px;
+    width:90px;
+    border-radius: 100%;
+    background-color:black;
+    border-bottom: 3px solid green;
+    position:absolute;
+    margin-top: 23px;
+    margin-left: 4px;
+}
+.on{
+    left:108px;
+}
+.the{
+    left:208px;
+}
+.tree{
+    left:308px;
+}
+.he{
+    left:408px;
+}
+.hug{
+    left:508px;
+}
+.her{
+    left:608px;
+}
+.and{
+    left:708px;
+}
+.his{
+    left:808px;
+}
+.mum{
+    left:908px;
+}
+.strict{
+    height:330px;
+    width:100px;
+    border:2px solid white;
+        margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+            
+}
+.green,.yellow,.red {
+    height:80px;
+    width:80px;
+    border-radius:100px;
+        margin:10px auto;
+            background-color:dimgrey;
+}
+.green{
+    animation: green 10s linear 40s infinite
+}
+@keyframes green{
+0%{
+        background-color: dimgray;
+
+    }
+     100%{
+        background-color:rgb(0, 255, 0) ;
+            box-shadow:0px 0px 40px 0px  rgb(51, 255, ;
+    }
+   100%{
+        background-color: rgb(0, 255, 0);
+            box-shadow:0px 0px 40px 0px rgb(51, 255, 51);
+    }
+}
+.yellow{
+    animation: yello 10s linear 15s infinite
+}
+@keyframes yello{
+0%{
+        background-color: dimgray;
+         
+    }
+    20%{
+        background-color: yellow;
+            box-shadow:0px 0px 40px 0px yellow;
+    }
+   100%{
+        background-color: yellow;
+            box-shadow:0px 0px 40px 0px yellow;
+    }
+}
+.red{
+    animation: read 10s linear 20s infinite
+}
+@keyframes read{
+0%{
+        background-color: dimgray;
+    
+    }
+     70%{
+        background-color: red;
+            box-shadow:0px 0px 40px 0px red;
+    }
+   100%{
+        background-color: red;
+            box-shadow:0px 0px 40px 0px red;
+    }
+}
+.hap{
+    color:white;
+    //font:70px tahoma;
+}
